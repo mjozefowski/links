@@ -18,10 +18,7 @@ Template.linksList.helpers({
 });
 
 Template.linksList.events({
-    'submit #links-form': function (e,t) {
-        e.preventDefault();
-        console.log('asdf')
-    }
+
 });
 
 Template.linksList.onDestroyed(function () {

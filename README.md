@@ -2,5 +2,5 @@
 
 ###Run first:
 ```
-meteor npm install --save babel-runtime simpl-schema cheerio
+meteor npm install babel-runtime simpl-schema cheerio
 ```

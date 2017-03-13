@@ -20,9 +20,6 @@ Template.linksForm.events({
     'submit #links-form': function (e,t) {
         e.preventDefault();
 
-        console.log();
-        console.log();
-
         let name = e.target.name.value,
             url = e.target.url.value;
 
@@ -31,7 +28,7 @@ Template.linksForm.events({
                 $('[name=name]').val('');
                 $('[name=url]').val('');
             } else {
-                console.log(err);
+                console.log(err.message);
             }
         })
     }
