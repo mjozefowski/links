@@ -1,0 +1,8 @@
+<template name="linksList">
+
+    {{# each link}}
+
+        <div><a href="{{this.url}}" target="_blank">{{this.name}}({{this.url}})</a></div>
+        
+    {{/each}}
+</template>
